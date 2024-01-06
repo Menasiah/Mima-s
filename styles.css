@@ -8,7 +8,7 @@ body{
     background-size: cover;
     height: auto;
     width: auto;
-    background-color: rgba(132, 75, 14, 0.434);
+    background-color: rgb(158, 82, 6);
 }
 .logo{
   margin-top: 2%;
@@ -26,7 +26,13 @@ h1{
     color: white;
     width: auto;
 }
+h4{
+ color: antiquewhite;
+}
 
+.reason1 {
+color: antiquewhite;
+}
 
 nav{
     display: flex;
@@ -89,17 +95,21 @@ nav{
   padding: 10px;
   color: white;
  }
-.Catalogue > img {
+.Catalogue_pics{
   display:inline-flex;
   border-radius: 20px;
   margin-left: 15px;
   width: auto;
+  height: 160px;
+  width: 160px;
   
 } 
 
 
 footer{
-  margin-left: 40%;
+  justify-items: center;
+  text-align: center;
+  align-items: center;
   color: white;
   width: auto;
   display: flex;
@@ -131,7 +141,21 @@ footer{
     }
 
     footer{
-      margin-left: 30%;
+      text-align: center;
+      padding-left: 20%;
+      padding-right: 20%;
+    }
+
+    .Catalogue_pics {
+     width: 300px;
+     height: 300px;
+     padding-bottom: 4%;
+    }
+
+    .Catalogue{
+      align-items: center;
+      text-align: center;
+      margin-left: 0% ;
     }
   /* .reason{
     font-size: 10px;
