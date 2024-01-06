@@ -30,9 +30,7 @@ h4{
  color: antiquewhite;
 }
 
-.reason1 {
-color: antiquewhite;
-}
+
 
 nav{
     display: flex;
@@ -84,6 +82,11 @@ nav{
     display: block;
     color: whitesmoke;
   }
+
+.reason1 {
+color: antiquewhite;
+}
+
 .Catalogue{
   width: auto;
   height: auto;
@@ -142,6 +145,7 @@ footer{
 
     footer{
       text-align: center;
+      margin:  20%,  0%,  20%,  0%
       padding-left: 20%;
       padding-right: 20%;
     }
